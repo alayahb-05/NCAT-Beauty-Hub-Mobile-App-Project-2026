@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Welcome to NC A&T also known as NCAT BEAUTY HUB 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+NCAT Beauty Hub is a mobile/web app built with Expo and React Native that helps students discover hairstylists, nail techs, lash techs, and barbers around North Carolina A&T State Univeristy. This 2 for 1 special mobile/web app not only helps students conveniently services close to campus but also allows student based businesses promote their services all from one platform.  
 
-## Get started
+## Features
+- Browse local beauty businesses
+- View service photos
+- Ratings and service descriptions
+- Direct hyperlink to their Instagram page to look further and possibly book
+- Web deployment for public access
 
-1. Install dependencies
+## Resources Used
+- ChatGPT (Used to help debug code and help find erros within code, used as a tool)
+- React Native
+- Expo
+- JavaScript
+- Netlify
+- VS Code
 
-   ```bash
-   npm install
-   ```
+## Live Demo
+[(https://ncat-beauty-hub.netlify.app](https://ncat-beauty-hub.netlify.app)
 
-2. Start the app
+## Installation
+Clone the repository: 
+git clone https://github.com/YOUR-USERNAME/ncat-beauty-hub.git
 
-   ```bash
-   npx expo start
-   ```
+Install dependencies:
 
-In the output, you'll find options to open the app in a
+npm install
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Run the project:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+npx expo start
+Web Deployment
 
-## Get a fresh project
+To export the web version:
 
-When you're ready, run:
+npx expo export -p web
 
-```bash
-npm run reset-project
-```
+Then deploy the dist folder to Netlify.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Hope you enjoy!
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
