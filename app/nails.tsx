@@ -55,7 +55,7 @@ export default function NailsScreen() {
         </TouchableOpacity>
       </View>
 
-      {/* Nail Tech 3 */}
+      {/* Nail Tech 2 */}
       <View style={styles.card}>
         <View style={styles.imageRow}>
           <Image
@@ -73,6 +73,36 @@ export default function NailsScreen() {
 
         <Text style={styles.services}>
           Services: Self Taught Nail Tech (Gel X ONLY)
+        </Text>
+
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() =>
+            Linking.openURL("https://instagram.com/nails_bynaymariee")
+          }
+        >
+          <Text style={styles.buttonText}>View Instagram</Text>
+        </TouchableOpacity>
+      </View>
+
+      {/* Nail Tech 3 */}
+      <View style={styles.card}>
+        <View style={styles.imageRow}>
+          <Image
+            source={require("../assets/images/nails3.png")}
+            style={styles.image}
+          />
+          <Image
+            source={require("../assets/images/nails4.png")}
+            style={styles.image}
+          />
+        </View>
+
+        <Text style={styles.business}>Clawsbyalex_</Text>
+        <Text style={styles.rating}>Rating: 4.9 / 5 ★★★★★</Text>
+
+        <Text style={styles.services}>
+          Services: Self Taught Nail Tech (No Pedicures)
         </Text>
 
         <TouchableOpacity

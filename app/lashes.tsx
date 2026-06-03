@@ -55,6 +55,37 @@ export default function LashesScreen() {
         </TouchableOpacity>
       </View>
 
+
+      {/* Lash Tech 2 */}
+      <View style={styles.card}>
+        <View style={styles.imageRow}>
+          <Image
+            source={require("../assets/images/lashes3.png")}
+            style={styles.image}
+          />
+          <Image
+            source={require("../assets/images/lashes4.png")}
+            style={styles.image}
+          />
+        </View>
+
+        <Text style={styles.business}>Lashesbyanavia</Text>
+        <Text style={styles.rating}>Rating: 4.9 / 5 ★★★★★</Text>
+
+        <Text style={styles.services}>
+          Services: Fill-Ins, Hybrid Fullset, Volume Fullset, Lash Removal, and more!
+        </Text>
+
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() =>
+            Linking.openURL("https://www.instagram.com/lashesbyanavia/")
+          }
+        >
+          <Text style={styles.buttonText}>View Instagram</Text>
+        </TouchableOpacity>
+      </View>
+
     
 
     </ScrollView>
