@@ -18,7 +18,7 @@ NCAT Beauty Hub is a mobile/web app built with Expo and React Native that helps 
 - VS Code
 
 ## Live Demo
-[(https://ncat-beauty-hub.netlify.app](https://ncat-beauty-hub.netlify.app)
+https://ncat-beauty-hub-demo.netlify.app/
 
 ## Installation
 Clone the repository: 
